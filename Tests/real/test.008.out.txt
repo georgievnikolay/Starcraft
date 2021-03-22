@@ -1,0 +1,58 @@
+Last Protoss AirShip with ID: 1 has 200 health and 30 shield left
+Last Terran AirShip with ID: 7 has 22 health left
+Last Protoss AirShip with ID: 1 has 150 health and 0 shield left
+Carrier with ID: 0 killed enemy airship with ID: 7
+Last Terran AirShip with ID: 6 has 78 health left
+Last Protoss AirShip with ID: 1 has 85 health and 0 shield left
+Carrier with ID: 1 killed enemy airship with ID: 6
+Last Terran AirShip with ID: 5 has 134 health left
+Last Protoss AirShip with ID: 1 has 35 health and 0 shield left
+Last Terran AirShip with ID: 5 has 38 health left
+Viking with ID: 4 killed enemy airship with ID: 1
+Last Protoss AirShip with ID: 0 has 200 health and 135 shield left
+Carrier with ID: 0 killed enemy airship with ID: 5
+Last Terran AirShip with ID: 4 has 126 health left
+Last Protoss AirShip with ID: 0 has 200 health and 75 shield left
+Last Terran AirShip with ID: 4 has 62 health left
+Last Protoss AirShip with ID: 0 has 200 health and 40 shield left
+Carrier with ID: 0 killed enemy airship with ID: 4
+Last Terran AirShip with ID: 3 has 150 health left
+Last Protoss AirShip with ID: 0 has 200 health and 20 shield left
+Last Terran AirShip with ID: 3 has 86 health left
+Last Protoss AirShip with ID: 0 has 200 health and 0 shield left
+Last Terran AirShip with ID: 3 has 22 health left
+Last Protoss AirShip with ID: 0 has 180 health and 0 shield left
+Carrier with ID: 0 killed enemy airship with ID: 3
+Last Terran AirShip with ID: 2 has 142 health left
+Last Protoss AirShip with ID: 0 has 175 health and 0 shield left
+Last Terran AirShip with ID: 2 has 110 health left
+Last Protoss AirShip with ID: 0 has 170 health and 0 shield left
+Last Terran AirShip with ID: 2 has 78 health left
+Last Protoss AirShip with ID: 0 has 165 health and 0 shield left
+Last Terran AirShip with ID: 2 has 46 health left
+Last Protoss AirShip with ID: 0 has 160 health and 0 shield left
+Last Terran AirShip with ID: 2 has 14 health left
+Last Protoss AirShip with ID: 0 has 155 health and 0 shield left
+Carrier with ID: 0 killed enemy airship with ID: 2
+Last Terran AirShip with ID: 1 has 134 health left
+Last Protoss AirShip with ID: 0 has 155 health and 10 shield left
+Last Terran AirShip with ID: 1 has 102 health left
+Last Protoss AirShip with ID: 0 has 155 health and 20 shield left
+Last Terran AirShip with ID: 1 has 70 health left
+Last Protoss AirShip with ID: 0 has 155 health and 30 shield left
+Last Terran AirShip with ID: 1 has 38 health left
+Last Protoss AirShip with ID: 0 has 155 health and 40 shield left
+Last Terran AirShip with ID: 1 has 6 health left
+Last Protoss AirShip with ID: 0 has 155 health and 50 shield left
+Carrier with ID: 0 killed enemy airship with ID: 1
+Last Terran AirShip with ID: 0 has 126 health left
+Last Protoss AirShip with ID: 0 has 155 health and 75 shield left
+Last Terran AirShip with ID: 0 has 94 health left
+Last Protoss AirShip with ID: 0 has 155 health and 100 shield left
+Last Terran AirShip with ID: 0 has 62 health left
+Last Protoss AirShip with ID: 0 has 155 health and 125 shield left
+Last Terran AirShip with ID: 0 has 30 health left
+Last Protoss AirShip with ID: 0 has 155 health and 135 shield left
+Carrier with ID: 0 killed enemy airship with ID: 0
+PROTOSS has won!
+
