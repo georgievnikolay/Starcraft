@@ -5,8 +5,8 @@
 
 int main() {
   const int buffSize = 50;
-  char terranFleet[buffSize];
-  char protossFleet[buffSize];
+  char terranFleet[50];
+  char protossFleet[50];
   scanf("%s %s", terranFleet, protossFleet);
 
   BattleField battleField;

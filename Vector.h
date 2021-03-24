@@ -10,7 +10,7 @@ typedef struct {
   size_t size;
 } Vector;
 
-void vectorInit(Vector *vec, size_t initialCapacity);
+void vectorInit(Vector *vec, size_t initialCapacity, size_t typeSize);
 size_t vectorGetSize(Vector *vec);
 bool vectorIsEmpty(Vector *vec);
 void vectorResize(Vector *vec, size_t newSize);

@@ -2,10 +2,10 @@
 
 #include "Vector.h"
 
-void vectorInit(Vector *vec, size_t initialCapacity) {
+void vectorInit(Vector *vec, size_t initialCapacity, size_t typeSize) {
   vec->capacity = initialCapacity;
   vec->size = 0;
-  vec->items = malloc(sizeof(void*) * vec->capacity);
+  vec->items = malloc(sizeof(typeSize) * vec->capacity);
 }
 
 size_t vectorGetSize(Vector *v) {
