@@ -1,25 +1,16 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/home/zhivko/workspace/Starcraft/src/AirShip.c" "/home/zhivko/workspace/Starcraft/build/CMakeFiles/starcraft.dir/src/AirShip.c.o"
-  "/home/zhivko/workspace/Starcraft/src/BattleCruser.c" "/home/zhivko/workspace/Starcraft/build/CMakeFiles/starcraft.dir/src/BattleCruser.c.o"
-  "/home/zhivko/workspace/Starcraft/src/BattleField.c" "/home/zhivko/workspace/Starcraft/build/CMakeFiles/starcraft.dir/src/BattleField.c.o"
-  "/home/zhivko/workspace/Starcraft/src/Carrier.c" "/home/zhivko/workspace/Starcraft/build/CMakeFiles/starcraft.dir/src/Carrier.c.o"
-  "/home/zhivko/workspace/Starcraft/src/Phoenix.c" "/home/zhivko/workspace/Starcraft/build/CMakeFiles/starcraft.dir/src/Phoenix.c.o"
-  "/home/zhivko/workspace/Starcraft/src/ProtossAirShip.c" "/home/zhivko/workspace/Starcraft/build/CMakeFiles/starcraft.dir/src/ProtossAirShip.c.o"
-  "/home/zhivko/workspace/Starcraft/src/TerranAirShip.c" "/home/zhivko/workspace/Starcraft/build/CMakeFiles/starcraft.dir/src/TerranAirShip.c.o"
-  "/home/zhivko/workspace/Starcraft/src/Vector.c" "/home/zhivko/workspace/Starcraft/build/CMakeFiles/starcraft.dir/src/Vector.c.o"
-  "/home/zhivko/workspace/Starcraft/src/Viking.c" "/home/zhivko/workspace/Starcraft/build/CMakeFiles/starcraft.dir/src/Viking.c.o"
-  "/home/zhivko/workspace/Starcraft/src/main.c" "/home/zhivko/workspace/Starcraft/build/CMakeFiles/starcraft.dir/src/main.c.o"
-  )
-set(CMAKE_C_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../include"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/nikolay/Desktop/Starcraft/src/BattleField.c" "CMakeFiles/starcraft.dir/src/BattleField.c.obj" "gcc" "CMakeFiles/starcraft.dir/src/BattleField.c.obj.d"
+  "C:/Users/nikolay/Desktop/Starcraft/src/Vector.c" "CMakeFiles/starcraft.dir/src/Vector.c.obj" "gcc" "CMakeFiles/starcraft.dir/src/Vector.c.obj.d"
+  "C:/Users/nikolay/Desktop/Starcraft/src/main.c" "CMakeFiles/starcraft.dir/src/main.c.obj" "gcc" "CMakeFiles/starcraft.dir/src/main.c.obj.d"
   )
 
 # Targets to which this target links.
