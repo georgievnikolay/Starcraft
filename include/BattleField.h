@@ -15,6 +15,7 @@ typedef struct
   int health; 
   int ability;
   int damage;
+  char shipType[13];
 } TerranShips;
 
 typedef struct
@@ -25,6 +26,7 @@ typedef struct
   int ability;
   int ability2;
   int damage;
+  char shipType[8];
 } ProtossShips;
 
 void generateTerranFleet(BattleField *battleField, const char *terranFleetStr);

@@ -1,13 +1,29 @@
 CMakeFiles/starcraft.dir/src/BattleField.c.obj: \
- C:\Users\nikolay\Desktop\Starcraft\src\BattleField.c \
- c:\mingw\include\stdlib.h c:\mingw\include\_mingw.h \
- c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \
- c:\mingw\include\sdkddkver.h c:\mingw\include\features.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\stddef.h c:\mingw\include\errno.h \
- C:/Users/nikolay/Desktop/Starcraft/include/BattleField.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\stdbool.h \
- c:\mingw\include\stdio.h c:\mingw\include\sys/types.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\stdarg.h \
- C:/Users/nikolay/Desktop/Starcraft/include/Vector.h \
- c:\mingw\include\string.h \
- C:/Users/nikolay/Desktop/Starcraft/include/Defines.h
+ C:\Users\User\codeAcademy\Starcraft\src\BattleField.c \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/stdlib.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/crtdefs.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/_mingw.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/_mingw_mac.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/_mingw_secapi.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/vadefs.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/sdks/_mingw_directx.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed/limits.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/limits.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/malloc.h \
+ C:/Users/User/codeAcademy/Starcraft/include/BattleField.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdbool.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/stdio.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/_mingw_print_push.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/_mingw_off_t.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/swprintf.inl \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/sec_api/stdio_s.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/_mingw_print_pop.h \
+ C:/Users/User/codeAcademy/Starcraft/include/Vector.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/stddef.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/stddef.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/string.h \
+ C:/PROGRA~1/MINGW-~1/mingw32/i686-w64-mingw32/include/sec_api/string_s.h \
+ C:/Users/User/codeAcademy/Starcraft/include/Defines.h
