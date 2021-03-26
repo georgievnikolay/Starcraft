@@ -36,7 +36,13 @@ enum CarrierDefines
 
 enum BattleCruserDefines
 {
-  YAMATO_CANNON_LOADING_TURNS = 5
+  YAMATO_CANNON_LOADING_TURNS = 5,
+  BATTLE_CRUSER_ABILITY_MULTIPLIER = 5
+};
+
+enum VikingDefines
+{
+  VIKING_ABILITY_MULTIPLIER = 2
 };
 
 

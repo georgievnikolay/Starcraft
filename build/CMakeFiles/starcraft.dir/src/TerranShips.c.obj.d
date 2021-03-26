@@ -1,6 +1,6 @@
-CMakeFiles/starcraft.dir/src/BattleField.c.obj: \
- C:\Users\nikolay\Desktop\Starcraft\src\BattleField.c \
- C:/Users/nikolay/Desktop/Starcraft/include/Ships.h \
+CMakeFiles/starcraft.dir/src/TerranShips.c.obj: \
+ C:\Users\nikolay\Desktop\Starcraft\src\TerranShips.c \
+ C:/Users/nikolay/Desktop/Starcraft/include/TerranShips.h \
  c:\mingw\include\stdlib.h c:\mingw\include\_mingw.h \
  c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \
  c:\mingw\include\sdkddkver.h c:\mingw\include\features.h \

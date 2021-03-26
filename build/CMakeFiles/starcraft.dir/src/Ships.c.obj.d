@@ -1,5 +1,5 @@
-CMakeFiles/starcraft.dir/src/BattleField.c.obj: \
- C:\Users\nikolay\Desktop\Starcraft\src\BattleField.c \
+CMakeFiles/starcraft.dir/src/Ships.c.obj: \
+ C:\Users\nikolay\Desktop\Starcraft\src\Ships.c \
  C:/Users/nikolay/Desktop/Starcraft/include/Ships.h \
  c:\mingw\include\stdlib.h c:\mingw\include\_mingw.h \
  c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \

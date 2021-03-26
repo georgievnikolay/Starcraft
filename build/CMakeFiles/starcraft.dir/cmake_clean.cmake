@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/starcraft.dir/src/BattleField.c.obj"
   "CMakeFiles/starcraft.dir/src/BattleField.c.obj.d"
+  "CMakeFiles/starcraft.dir/src/Ships.c.obj"
+  "CMakeFiles/starcraft.dir/src/Ships.c.obj.d"
   "CMakeFiles/starcraft.dir/src/Vector.c.obj"
   "CMakeFiles/starcraft.dir/src/Vector.c.obj.d"
   "CMakeFiles/starcraft.dir/src/main.c.obj"

@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\User\codeAcademy\Starcraft
+CMAKE_SOURCE_DIR = C:\Users\nikolay\Desktop\Starcraft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\User\codeAcademy\Starcraft\build
+CMAKE_BINARY_DIR = C:\Users\nikolay\Desktop\Starcraft\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\User\codeAcademy\Starcraft\build\CMakeFiles C:\Users\User\codeAcademy\Starcraft\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nikolay\Desktop\Starcraft\build\CMakeFiles C:\Users\nikolay\Desktop\Starcraft\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\User\codeAcademy\Starcraft\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nikolay\Desktop\Starcraft\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,6 +152,30 @@ src/BattleField.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\starcraft.dir\build.make CMakeFiles/starcraft.dir/src/BattleField.c.s
 .PHONY : src/BattleField.c.s
 
+src/Ships.obj: src/Ships.c.obj
+.PHONY : src/Ships.obj
+
+# target to build an object file
+src/Ships.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\starcraft.dir\build.make CMakeFiles/starcraft.dir/src/Ships.c.obj
+.PHONY : src/Ships.c.obj
+
+src/Ships.i: src/Ships.c.i
+.PHONY : src/Ships.i
+
+# target to preprocess a source file
+src/Ships.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\starcraft.dir\build.make CMakeFiles/starcraft.dir/src/Ships.c.i
+.PHONY : src/Ships.c.i
+
+src/Ships.s: src/Ships.c.s
+.PHONY : src/Ships.s
+
+# target to generate assembly for a file
+src/Ships.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\starcraft.dir\build.make CMakeFiles/starcraft.dir/src/Ships.c.s
+.PHONY : src/Ships.c.s
+
 src/Vector.obj: src/Vector.c.obj
 .PHONY : src/Vector.obj
 
@@ -212,6 +236,9 @@ help:
 	@echo ... src/BattleField.obj
 	@echo ... src/BattleField.i
 	@echo ... src/BattleField.s
+	@echo ... src/Ships.obj
+	@echo ... src/Ships.i
+	@echo ... src/Ships.s
 	@echo ... src/Vector.obj
 	@echo ... src/Vector.i
 	@echo ... src/Vector.s
