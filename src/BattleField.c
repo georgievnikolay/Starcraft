@@ -1,6 +1,4 @@
-// #include <stdlib.h>
-// #include "BattleField.h"
-// #include "Defines.h"
+
 #include "Ships.h"
 
 void generateTerranFleet(BattleField *battleField, const char *terranFleetStr)
@@ -11,11 +9,13 @@ void generateTerranFleet(BattleField *battleField, const char *terranFleetStr)
 
   size_t i;
   for (i = 0; i < strlen(terranFleetStr); i++) {
-    if (terranFleetStr[i] == BATTLE_CRUSER) {
-      initBattleCruser(&terranFleet[i]);
-    }
-    if (terranFleetStr[i] == VIKING) {
-      initViking(&terranFleet[i]);
+    switch(terranFleetStr[i]){
+      case BATTLE_CRUSER:
+        initBattleCruser(&terranFleet[i]);
+        break;
+      case VIKING:
+        initViking(&terranFleet[i]);
+        break;
     }
 
     vectorPush(&battleField->terranFleet, &(terranFleet[i]));
@@ -30,11 +30,13 @@ void generateProtossFleet(BattleField *battleField, const char *protossFleetStr)
 
   size_t i;
   for (i = 0; i < strlen(protossFleetStr); i++) {
-    if (protossFleetStr[i] == CARRIER) {
-      initCarrier(&protossFleet[i]);
-    }
-    if (protossFleetStr[i] == PHOENIX) {
-      initPhoenix(&protossFleet[i]);
+      switch(protossFleetStr[i]){
+      case CARRIER:
+        initCarrier(&protossFleet[i]);
+        break;
+      case PHOENIX:
+        initPhoenix(&protossFleet[i]);
+        break;
     }
 
     vectorPush(&battleField->protossFleet, &(protossFleet[i]));
