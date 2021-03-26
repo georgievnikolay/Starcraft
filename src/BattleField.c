@@ -31,12 +31,12 @@ void generateProtossFleet(BattleField *battleField, const char *protossFleetStr)
   size_t i;
   for (i = 0; i < strlen(protossFleetStr); i++) {
       switch(protossFleetStr[i]){
-      case CARRIER:
-        initCarrier(&protossFleet[i]);
-        break;
-      case PHOENIX:
-        initPhoenix(&protossFleet[i]);
-        break;
+        case CARRIER:
+          initCarrier(&protossFleet[i]);
+          break;
+        case PHOENIX:
+          initPhoenix(&protossFleet[i]);
+          break;
     }
 
     vectorPush(&battleField->protossFleet, &(protossFleet[i]));
