@@ -73,7 +73,6 @@ void deinit(BattleField *battleField)
   vectorFree(&battleField->terranFleet);
 }
 
-
 bool processTerranTurn(BattleField *battleField)
 {
   static int numberOfTurns = 1;
