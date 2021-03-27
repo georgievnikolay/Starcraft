@@ -1,5 +1,5 @@
 CMakeFiles/starcraft.dir/src/main.c.obj: \
- C:\Users\Owner\Desktop\STARCRAFT\Starcraft\src\main.c \
+ C:\Users\boni_\Documents\Starcraft\src\main.c \
  C:/PROGRA~1/MINGW-~1/mingw64/x86_64-w64-mingw32/include/stdio.h \
  C:/PROGRA~1/MINGW-~1/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
  C:/PROGRA~1/MINGW-~1/mingw64/x86_64-w64-mingw32/include/_mingw.h \
@@ -19,9 +19,9 @@ CMakeFiles/starcraft.dir/src/main.c.obj: \
  C:/PROGRA~1/MINGW-~1/mingw64/x86_64-w64-mingw32/include/limits.h \
  C:/PROGRA~1/MINGW-~1/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
  C:/PROGRA~1/MINGW-~1/mingw64/x86_64-w64-mingw32/include/malloc.h \
- C:/Users/Owner/Desktop/STARCRAFT/Starcraft/include/BattleField.h \
+ C:/Users/boni_/Documents/Starcraft/include/BattleField.h \
  C:/PROGRA~1/MINGW-~1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdbool.h \
- C:/Users/Owner/Desktop/STARCRAFT/Starcraft/include/Vector.h \
+ C:/Users/boni_/Documents/Starcraft/include/Vector.h \
  C:/PROGRA~1/MINGW-~1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
  C:/PROGRA~1/MINGW-~1/mingw64/x86_64-w64-mingw32/include/stddef.h \
  C:/PROGRA~1/MINGW-~1/mingw64/x86_64-w64-mingw32/include/string.h \

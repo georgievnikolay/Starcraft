@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = @CMakeFiles/starcraft.dir/includes_C.rsp
 
-C_FLAGS = -std=c11
+C_FLAGS = -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wlogical-op -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wnull-dereference -std=c11
 

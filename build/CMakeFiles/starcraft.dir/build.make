@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Owner\Desktop\STARCRAFT\Starcraft
+CMAKE_SOURCE_DIR = C:\Users\boni_\Documents\Starcraft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Owner\Desktop\STARCRAFT\Starcraft\build
+CMAKE_BINARY_DIR = C:\Users\boni_\Documents\Starcraft\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/starcraft.dir/depend.make
@@ -72,61 +72,61 @@ CMakeFiles/starcraft.dir/src/main.c.obj: CMakeFiles/starcraft.dir/flags.make
 CMakeFiles/starcraft.dir/src/main.c.obj: CMakeFiles/starcraft.dir/includes_C.rsp
 CMakeFiles/starcraft.dir/src/main.c.obj: ../src/main.c
 CMakeFiles/starcraft.dir/src/main.c.obj: CMakeFiles/starcraft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Owner\Desktop\STARCRAFT\Starcraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/starcraft.dir/src/main.c.obj"
-	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/starcraft.dir/src/main.c.obj -MF CMakeFiles\starcraft.dir\src\main.c.obj.d -o CMakeFiles\starcraft.dir\src\main.c.obj -c C:\Users\Owner\Desktop\STARCRAFT\Starcraft\src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\boni_\Documents\Starcraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/starcraft.dir/src/main.c.obj"
+	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/starcraft.dir/src/main.c.obj -MF CMakeFiles\starcraft.dir\src\main.c.obj.d -o CMakeFiles\starcraft.dir\src\main.c.obj -c C:\Users\boni_\Documents\Starcraft\src\main.c
 
 CMakeFiles/starcraft.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/starcraft.dir/src/main.c.i"
-	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Owner\Desktop\STARCRAFT\Starcraft\src\main.c > CMakeFiles\starcraft.dir\src\main.c.i
+	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\boni_\Documents\Starcraft\src\main.c > CMakeFiles\starcraft.dir\src\main.c.i
 
 CMakeFiles/starcraft.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/starcraft.dir/src/main.c.s"
-	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Owner\Desktop\STARCRAFT\Starcraft\src\main.c -o CMakeFiles\starcraft.dir\src\main.c.s
+	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\boni_\Documents\Starcraft\src\main.c -o CMakeFiles\starcraft.dir\src\main.c.s
 
 CMakeFiles/starcraft.dir/src/Vector.c.obj: CMakeFiles/starcraft.dir/flags.make
 CMakeFiles/starcraft.dir/src/Vector.c.obj: CMakeFiles/starcraft.dir/includes_C.rsp
 CMakeFiles/starcraft.dir/src/Vector.c.obj: ../src/Vector.c
 CMakeFiles/starcraft.dir/src/Vector.c.obj: CMakeFiles/starcraft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Owner\Desktop\STARCRAFT\Starcraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/starcraft.dir/src/Vector.c.obj"
-	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/starcraft.dir/src/Vector.c.obj -MF CMakeFiles\starcraft.dir\src\Vector.c.obj.d -o CMakeFiles\starcraft.dir\src\Vector.c.obj -c C:\Users\Owner\Desktop\STARCRAFT\Starcraft\src\Vector.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\boni_\Documents\Starcraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/starcraft.dir/src/Vector.c.obj"
+	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/starcraft.dir/src/Vector.c.obj -MF CMakeFiles\starcraft.dir\src\Vector.c.obj.d -o CMakeFiles\starcraft.dir\src\Vector.c.obj -c C:\Users\boni_\Documents\Starcraft\src\Vector.c
 
 CMakeFiles/starcraft.dir/src/Vector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/starcraft.dir/src/Vector.c.i"
-	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Owner\Desktop\STARCRAFT\Starcraft\src\Vector.c > CMakeFiles\starcraft.dir\src\Vector.c.i
+	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\boni_\Documents\Starcraft\src\Vector.c > CMakeFiles\starcraft.dir\src\Vector.c.i
 
 CMakeFiles/starcraft.dir/src/Vector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/starcraft.dir/src/Vector.c.s"
-	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Owner\Desktop\STARCRAFT\Starcraft\src\Vector.c -o CMakeFiles\starcraft.dir\src\Vector.c.s
+	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\boni_\Documents\Starcraft\src\Vector.c -o CMakeFiles\starcraft.dir\src\Vector.c.s
 
 CMakeFiles/starcraft.dir/src/BattleField.c.obj: CMakeFiles/starcraft.dir/flags.make
 CMakeFiles/starcraft.dir/src/BattleField.c.obj: CMakeFiles/starcraft.dir/includes_C.rsp
 CMakeFiles/starcraft.dir/src/BattleField.c.obj: ../src/BattleField.c
 CMakeFiles/starcraft.dir/src/BattleField.c.obj: CMakeFiles/starcraft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Owner\Desktop\STARCRAFT\Starcraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/starcraft.dir/src/BattleField.c.obj"
-	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/starcraft.dir/src/BattleField.c.obj -MF CMakeFiles\starcraft.dir\src\BattleField.c.obj.d -o CMakeFiles\starcraft.dir\src\BattleField.c.obj -c C:\Users\Owner\Desktop\STARCRAFT\Starcraft\src\BattleField.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\boni_\Documents\Starcraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/starcraft.dir/src/BattleField.c.obj"
+	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/starcraft.dir/src/BattleField.c.obj -MF CMakeFiles\starcraft.dir\src\BattleField.c.obj.d -o CMakeFiles\starcraft.dir\src\BattleField.c.obj -c C:\Users\boni_\Documents\Starcraft\src\BattleField.c
 
 CMakeFiles/starcraft.dir/src/BattleField.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/starcraft.dir/src/BattleField.c.i"
-	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Owner\Desktop\STARCRAFT\Starcraft\src\BattleField.c > CMakeFiles\starcraft.dir\src\BattleField.c.i
+	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\boni_\Documents\Starcraft\src\BattleField.c > CMakeFiles\starcraft.dir\src\BattleField.c.i
 
 CMakeFiles/starcraft.dir/src/BattleField.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/starcraft.dir/src/BattleField.c.s"
-	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Owner\Desktop\STARCRAFT\Starcraft\src\BattleField.c -o CMakeFiles\starcraft.dir\src\BattleField.c.s
+	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\boni_\Documents\Starcraft\src\BattleField.c -o CMakeFiles\starcraft.dir\src\BattleField.c.s
 
 CMakeFiles/starcraft.dir/src/Ships.c.obj: CMakeFiles/starcraft.dir/flags.make
 CMakeFiles/starcraft.dir/src/Ships.c.obj: CMakeFiles/starcraft.dir/includes_C.rsp
 CMakeFiles/starcraft.dir/src/Ships.c.obj: ../src/Ships.c
 CMakeFiles/starcraft.dir/src/Ships.c.obj: CMakeFiles/starcraft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Owner\Desktop\STARCRAFT\Starcraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/starcraft.dir/src/Ships.c.obj"
-	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/starcraft.dir/src/Ships.c.obj -MF CMakeFiles\starcraft.dir\src\Ships.c.obj.d -o CMakeFiles\starcraft.dir\src\Ships.c.obj -c C:\Users\Owner\Desktop\STARCRAFT\Starcraft\src\Ships.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\boni_\Documents\Starcraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/starcraft.dir/src/Ships.c.obj"
+	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/starcraft.dir/src/Ships.c.obj -MF CMakeFiles\starcraft.dir\src\Ships.c.obj.d -o CMakeFiles\starcraft.dir\src\Ships.c.obj -c C:\Users\boni_\Documents\Starcraft\src\Ships.c
 
 CMakeFiles/starcraft.dir/src/Ships.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/starcraft.dir/src/Ships.c.i"
-	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Owner\Desktop\STARCRAFT\Starcraft\src\Ships.c > CMakeFiles\starcraft.dir\src\Ships.c.i
+	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\boni_\Documents\Starcraft\src\Ships.c > CMakeFiles\starcraft.dir\src\Ships.c.i
 
 CMakeFiles/starcraft.dir/src/Ships.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/starcraft.dir/src/Ships.c.s"
-	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Owner\Desktop\STARCRAFT\Starcraft\src\Ships.c -o CMakeFiles\starcraft.dir\src\Ships.c.s
+	C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\boni_\Documents\Starcraft\src\Ships.c -o CMakeFiles\starcraft.dir\src\Ships.c.s
 
 # Object files for target starcraft
 starcraft_OBJECTS = \
@@ -146,7 +146,7 @@ starcraft.exe: CMakeFiles/starcraft.dir/build.make
 starcraft.exe: CMakeFiles/starcraft.dir/linklibs.rsp
 starcraft.exe: CMakeFiles/starcraft.dir/objects1.rsp
 starcraft.exe: CMakeFiles/starcraft.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Owner\Desktop\STARCRAFT\Starcraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable starcraft.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\boni_\Documents\Starcraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable starcraft.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\starcraft.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +158,6 @@ CMakeFiles/starcraft.dir/clean:
 .PHONY : CMakeFiles/starcraft.dir/clean
 
 CMakeFiles/starcraft.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Owner\Desktop\STARCRAFT\Starcraft C:\Users\Owner\Desktop\STARCRAFT\Starcraft C:\Users\Owner\Desktop\STARCRAFT\Starcraft\build C:\Users\Owner\Desktop\STARCRAFT\Starcraft\build C:\Users\Owner\Desktop\STARCRAFT\Starcraft\build\CMakeFiles\starcraft.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\boni_\Documents\Starcraft C:\Users\boni_\Documents\Starcraft C:\Users\boni_\Documents\Starcraft\build C:\Users\boni_\Documents\Starcraft\build C:\Users\boni_\Documents\Starcraft\build\CMakeFiles\starcraft.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/starcraft.dir/depend
 
