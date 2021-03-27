@@ -24,8 +24,6 @@ typedef struct
   int health;
   int shield;
   int shieldRegen;
-  // int ability;
-  // int ability2;
   int damage;
   char shipType[8];
 } ProtossShips;
