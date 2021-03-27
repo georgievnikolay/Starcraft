@@ -30,10 +30,10 @@ void initCarrier(ProtossShips *ship) {
 }
 
 void initPhoenix(ProtossShips *ship) {
+  ship->damage = PHOENIX_DAMAGE;
+  ship->health = PHOENIX_HEALTH;
   ship->shield = PHOENIX_SHIELD;
   ship->shieldRegen = PHOENIX_SHIELD_REGENERATE_RATE;
-  ship->health = PHOENIX_HEALTH;
-  ship->damage = PHOENIX_DAMAGE;
   strcpy(ship->shipType, "Phoenix");
 }
 
@@ -75,4 +75,16 @@ int carrierInterceptorsStatus(ProtossShips* carrier) {
   else {
     return MAX_INTERCEPTORS;
   }
+}
+
+void destroyedProtossShip(Vector *vec, ProtossShips **enemy, int *enemyId ){
+  vectorPop(vec);
+  *enemyId = vectorGetSize(vec) - 1;
+  *enemy = vectorBack(vec);
+}
+
+void destroyedTerranShip(Vector *vec, TerranShips **enemy, int *enemyId ){
+  vectorPop(vec);
+  *enemyId = vectorGetSize(vec) - 1;
+  *enemy = vectorBack(vec);
 }

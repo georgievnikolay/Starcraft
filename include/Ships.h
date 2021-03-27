@@ -19,4 +19,7 @@ void substractShieldDamage(ProtossShips *ship);
 void shieldRegen(ProtossShips *ship, int maxShield, int regenRate);
 int carrierInterceptorsStatus(ProtossShips* carrier);
 
+void destroyedTerranShip(Vector *vec, TerranShips **enemy, int *enemyId );
+void destroyedProtossShip(Vector *vec, ProtossShips **enemy, int *enemyId );
+
 #endif /* SHIPS_H_ */

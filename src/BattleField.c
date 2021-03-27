@@ -1,14 +1,14 @@
 #include "Ships.h"
 
-ProtossShips *ptr;
-TerranShips *ptr2;
+ProtossShips *ptrToProtossFleet;
+TerranShips *ptrToTerranFleet;
 
 void generateTerranFleet(BattleField *battleField, const char *terranFleetStr)
 {
   vectorInit(&battleField->terranFleet, strlen(terranFleetStr));
 
   TerranShips *terranFleet = malloc(strlen(terranFleetStr) * sizeof(TerranShips));
-  ptr2 = terranFleet;
+  ptrToTerranFleet = terranFleet;
 
   size_t i;
   for (i = 0; i < strlen(terranFleetStr); i++) {
@@ -30,7 +30,7 @@ void generateProtossFleet(BattleField *battleField, const char *protossFleetStr)
   vectorInit(&battleField->protossFleet, strlen(protossFleetStr));
 
   ProtossShips *protossFleet = malloc(strlen(protossFleetStr) * sizeof(ProtossShips));
-  ptr = protossFleet;
+  ptrToProtossFleet = protossFleet;
 
   size_t i;
   for (i = 0; i < strlen(protossFleetStr); i++) {
@@ -67,17 +67,16 @@ void startBattle(BattleField *battleField)
 
 void deinit(BattleField *battleField)
 {
-  free(ptr);
-  free(ptr2);
+  free(ptrToProtossFleet);
+  free(ptrToTerranFleet);
   vectorFree(&battleField->protossFleet);
   vectorFree(&battleField->terranFleet);
 }
 
+
 bool processTerranTurn(BattleField *battleField)
 {
-  /*from global to static*/
   static int numberOfTurns = 1;
-
   int lastProtosShipIndx;
   ProtossShips *currentProtossShip;
   TerranShips *currentTerranShip;
@@ -86,11 +85,9 @@ bool processTerranTurn(BattleField *battleField)
   for (i = 0; i < vectorGetSize(&battleField->terranFleet); i++)
   {
     lastProtosShipIndx = vectorGetSize(&battleField->protossFleet) - 1;
-
     currentTerranShip = vectorGet(&battleField->terranFleet, i);
     currentProtossShip = vectorBack(&battleField->protossFleet);
     
-    /*go into functions*/
     if (checkShipName(currentTerranShip->shipType, "Viking")) {
       vikingAttack(currentTerranShip, currentProtossShip);
     }
@@ -102,10 +99,7 @@ bool processTerranTurn(BattleField *battleField)
 
     if (currentProtossShip->health <= 0) {
       printf("%s with ID: %ld killed enemy airship with ID: %d\n", currentTerranShip->shipType, i, lastProtosShipIndx);
-      /*destry ship function ii*/
-      vectorPop(&battleField->protossFleet);
-      lastProtosShipIndx = vectorGetSize(&battleField->protossFleet) - 1;
-      currentProtossShip = vectorBack(&battleField->protossFleet);
+      destroyedProtossShip(&battleField->protossFleet,&currentProtossShip,&lastProtosShipIndx);
     }
     
     if (vectorIsEmpty(&battleField->protossFleet)) {
@@ -115,7 +109,6 @@ bool processTerranTurn(BattleField *battleField)
 
   numberOfTurns++;
   printf("Last Protoss AirShip with ID: %d has %d health and %d shield left\n", lastProtosShipIndx, currentProtossShip->health, currentProtossShip->shield);
-
   return false;
 }
 
@@ -129,7 +122,6 @@ bool processProtossTurn(BattleField *battleField)
   for (i = 0; i < vectorGetSize(&battleField->protossFleet); i++)
   {
     LastTerranShipIndx = vectorGetSize(&battleField->terranFleet) - 1;
-
     currentProtossShip = vectorGet(&battleField->protossFleet, i);
     currentTerranShip = vectorBack(&battleField->terranFleet);
     
@@ -138,16 +130,12 @@ bool processProtossTurn(BattleField *battleField)
       int j;
       for (j = 0; j < carrierInterceptorsStatus(currentProtossShip); j++)
       {
-        /*function i*/
         currentTerranShip->health -= currentProtossShip->damage;
 
         if (currentTerranShip->health <= 0)
         {
           printf("%s with ID: %ld killed enemy airship with ID: %d\n", currentProtossShip->shipType, i, LastTerranShipIndx);
-          /*destry ship function ii*/
-          vectorPop(&battleField->terranFleet);
-          LastTerranShipIndx = vectorGetSize(&battleField->terranFleet) - 1;
-          currentTerranShip = vectorBack(&battleField->terranFleet);
+          destroyedTerranShip(&battleField->terranFleet,&currentTerranShip,&LastTerranShipIndx);
           
           if(vectorIsEmpty(&battleField->terranFleet)){
             return true;
@@ -159,11 +147,8 @@ bool processProtossTurn(BattleField *battleField)
       currentTerranShip->health -= currentProtossShip->damage;
 
       if(currentTerranShip->health <= 0) {
-        /*destry ship function ii*/
-        vectorPop(&battleField->terranFleet);
         printf("%s with ID: %ld killed enemy airship with ID: %d\n", currentProtossShip->shipType, i, LastTerranShipIndx);
-        LastTerranShipIndx = vectorGetSize(&battleField->terranFleet) - 1;
-        currentTerranShip = vectorBack(&battleField->terranFleet);
+        destroyedTerranShip(&battleField->terranFleet,&currentTerranShip,&LastTerranShipIndx);
       }   
     }
 
